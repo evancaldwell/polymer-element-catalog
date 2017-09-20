@@ -1,6 +1,13 @@
 {
   "packages": [
     {
+      "name":"ns-elements",
+      "title":"NuSkin Elements",
+      "color":"#1180A8",
+      "symbol":"Ns",
+      "tagline": "NuSkin Elements"
+    },
+    {
       "name":"app-elements",
       "title":"App Elements",
       "color":"#ddc9e6",

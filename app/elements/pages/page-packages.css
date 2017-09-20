@@ -2,6 +2,11 @@ paper-header-panel {
   background: #fafafa;
 }
 
+.paper-header {
+  --paper-toolbar-background: #FFFFFF; /* TODO: should make this a custom property */
+  box-shadow: 0 0 4px 1px darkgray; /* TODO: should make this a custom property or use paper-material */
+}
+
 .content {
   display: block;
   padding: 50px 0;

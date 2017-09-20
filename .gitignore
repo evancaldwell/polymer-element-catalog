@@ -6,3 +6,4 @@ npm-debug.log
 .divshot-cache
 package-lock.json
 .vscode
+**/.DS_Store

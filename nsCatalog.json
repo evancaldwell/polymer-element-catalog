@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "name":"shop-elements",
+      "title":"Shop Elements",
+      "color":"#1180A8",
+      "symbol":"Sh",
+      "tagline": "Shop Elements"
+    },
+    {
+      "name":"account-elements",
+      "title":"Accoutn Elements",
+      "color":"#1180A8",
+      "symbol":"Ac",
+      "tagline": "Account Elements"
+    },
+    {
+      "name":"application-elements",
+      "title":"Application Elements",
+      "color":"#1180A8",
+      "symbol":"Ap",
+      "tagline": "Application Elements"
+    }
+  ]
+}

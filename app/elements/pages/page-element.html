@@ -149,6 +149,7 @@
     _demoActive: function(path) {
       return this.view === 'demo:' + path;
     },
+    // TODO: modify for Bitbucket
     _githubLink: function(source) {
       return 'https://github.com/' + source;
     },
@@ -180,9 +181,11 @@
         this.fire('toast', {text: "No documentation available for " + detail});
       }
     },
+    // TODO: modify for how we intend to handle docs
     docSrc: function(element) {
       return "/data/docs/" + element + ".json";
     },
+    // TODO: modify for whatever path we end up using
     baseURI: function(element) {
       return window.location.origin + "/bower_components/" + element + "/" + element + ".html";
     },
@@ -215,6 +218,7 @@
     _isEqual: function(a,b) {
       return a === b;
     },
+    // TODO: likely won't need this
     _bowerCommand: function(source) {
       return 'bower install --save ' + source;
     },

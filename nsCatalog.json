@@ -1,25 +1,237 @@
 {
+  "guides": [
+    {
+      "title": "Flexbox layout with iron-flex-layout",
+      "summary": "Simple flexbox layout",
+      "tags": [
+        "beginner"
+      ],
+      "elements": [
+        "iron-flex-layout"
+      ],
+      "updated": "2015-05-03T00:00:00.000Z",
+      "name": "flex-layout"
+    },
+    {
+      "title": "Responsive Material Design layouts",
+      "summary": "How to create responsive Material Design layouts with Paper and Iron elements.",
+      "tags": [
+        "layout"
+      ],
+      "elements": [
+        "paper-header-panel",
+        "paper-toolbar",
+        "paper-drawer-panel",
+        "paper-icon-button",
+        "paper-tabs",
+        "paper-tab",
+        "paper-drawer-panel",
+        "iron-icons",
+        "iron-flex-layout"
+      ],
+      "updated": "2015-07-23T00:00:00.000Z",
+      "name": "responsive-material-design-layouts"
+    },
+    {
+      "title": "Using Elements",
+      "summary": "Learn how to install and use Polymer Elements in your own projects.",
+      "tags": [
+        "beginner"
+      ],
+      "elements": [
+        "paper-checkbox"
+      ],
+      "updated": "2015-05-03T00:00:00.000Z",
+      "name": "using-elements"
+    },
+    {
+      "title": "neon-animation",
+      "summary": "A short guide to neon-animation and neon-animated-pages",
+      "tags": [
+        "animation",
+        "intermediate"
+      ],
+      "elements": [
+        "neon-animation",
+        "neon-animated-pages"
+      ],
+      "updated": "2015-05-26T00:00:00.000Z",
+      "name": "using-neon-animations"
+    }
+  ],
   "packages": [
     {
       "name":"shop-elements",
       "title":"Shop Elements",
-      "color":"#1180A8",
+      "color":"#FFFDDD",
       "symbol":"Sh",
-      "tagline": "Shop Elements"
+      "tagline": "Shop Elements",
+      "version": "1.0.0",
+      "description": "Elements for NuSkin shop.",
+      "elements": [
+        "ns-product-overlay"
+      ],
+      "guides": []
     },
     {
       "name":"account-elements",
-      "title":"Accoutn Elements",
-      "color":"#1180A8",
+      "title":"Account Elements",
+      "color":"#B57280",
       "symbol":"Ac",
-      "tagline": "Account Elements"
+      "tagline": "Account Elements",
+      "version": "1.0.0",
+      "description": "Elements for NuSkin accounts.",
+      "elements": [
+        "ns-dropdown",
+        "vg-dropdown",
+        "ns-field-input"
+      ],
+      "guides": []
     },
     {
       "name":"application-elements",
       "title":"Application Elements",
       "color":"#1180A8",
       "symbol":"Ap",
-      "tagline": "Application Elements"
+      "tagline": "Application Elements",
+      "version": "1.0.0",
+      "description": "Elements for NuSkin applications.",
+      "elements": [
+        "ns-application",
+        "ns-footer",
+        "ns-header",
+        "ns-login",
+        "ns-user"
+      ],
+      "guides": []
+    }
+  ],
+  "elements": [
+    {
+      "name": "ns-application",
+      "version": "1.0.1",
+      "source": "web/ns-application/application.html",
+      "target": "^1.0.0",
+      "package": "application-elements",
+      "description": "A set of elements for creating NuSkin apps",
+      "tags": [],
+      "demo": {},
+      "active": "ns-application",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "ns-footer",
+      "version": "1.0.1",
+      "source": "web/ns-application/footer.html",
+      "target": "^1.0.0",
+      "package": "application-elements",
+      "description": "A standard footer for NuSkin apps",
+      "tags": [],
+      "demo": {},
+      "active": "ns-footer",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "ns-header",
+      "version": "1.0.1",
+      "source": "web/ns-application/header.html",
+      "target": "^1.0.0",
+      "package": "application-elements",
+      "description": "A standard header for NuSkin apps",
+      "tags": [],
+      "demo": {},
+      "active": "ns-header",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "ns-login",
+      "version": "1.0.1",
+      "source": "web/ns-application/login.html",
+      "target": "^1.0.0",
+      "package": "application-elements",
+      "description": "A standard login for NuSkin apps",
+      "tags": [],
+      "demo": {},
+      "active": "ns-login",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "ns-user",
+      "version": "1.0.1",
+      "source": "web/ns-application/user.html",
+      "target": "^1.0.0",
+      "package": "application-elements",
+      "description": "A  user element for NuSkin apps",
+      "tags": [],
+      "demo": {},
+      "active": "ns-user",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "ns-product-overlay",
+      "version": "1.0.1",
+      "source": "web/ns-shop/ns-product-overlay/product-overlay.html",
+      "target": "^1.0.0",
+      "package": "shop-elements",
+      "description": "A  product overlay element for NuSkin apps",
+      "tags": [],
+      "demo": {},
+      "active": "ns-product-overlay",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "ns-dropdown",
+      "version": "1.0.1",
+      "source": "web/ns-dropdown/ns-dropdown.html",
+      "target": "^1.0.0",
+      "package": "account-elements",
+      "description": "A  dropdown element for NuSkin apps",
+      "tags": [],
+      "demo": {
+        "desc": "Use the dropdown",
+        "path": "ns-dropdown/demo/index.html"
+      },
+      "active": "ns-dropdown",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "vg-dropdown",
+      "version": "1.0.1",
+      "source": "web/ns-dropdown/vg-dropdown.html",
+      "target": "^1.0.0",
+      "package": "account-elements",
+      "description": "A vg dropdown element",
+      "tags": [],
+      "demo": {
+        "desc": "Use the dropdown",
+        "path": "ns-dropdown/demo/index.html"
+      },
+      "active": "vg-dropdown",
+      "elements": [],
+      "behaviors": []
+    },
+    {
+      "name": "ns-field-input",
+      "version": "1.0.1",
+      "source": "web/ns-field-input/ns-field-input.html",
+      "target": "^1.0.0",
+      "package": "account-elements",
+      "description": "A  field input element for NuSkin apps",
+      "tags": [],
+      "demo": {
+        "desc": "Use Field Input",
+        "path": "ns-field-input/demo/index.html"
+      },
+      "active": "ns-field-input",
+      "elements": [],
+      "behaviors": []
     }
   ]
 }

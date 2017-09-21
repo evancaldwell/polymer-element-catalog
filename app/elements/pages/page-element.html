@@ -82,22 +82,17 @@
           </div>
         </app-sidebar>
         <section main class="fit">
+          <!-- =============== component page built with polymer analyzer's analysis.json -->
           <iron-component-page
-            catalog
             id="componentPage"
-            scroll-mode="[[_getScrollMode(narrowDrawer)]]"
-            package$="[[package.name]]"
-            version="[[metadata.version]]"
-            doc-src="[[docSrc(element)]]"
-            base="[[baseURI(element)]]"
-            view="{{view}}"
-            doc-elements="{{docElements}}"
-            doc-behaviors="{{docBehaviors}}"
-            doc-demos="{{docDemos}}"
-            active="{{active}}"
-            on-iron-doc-viewer-component-selected="navToBehavior"
-            on-iron-component-page-error="_handleError">
+            descriptor-url="/analysis.json">
           </iron-component-page>
+          <!-- =============== component page built with polymer analyzer's analysis.json -->
+          <!-- <marked-element>
+            <div class="markdown-html"></div>
+            <script type="text/markdown" src="/README.md"></script>
+          </marked-element> -->
+
           <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
           <cart-icon fade-out$="[[_isCartIconHidden(view)]]"></cart-icon>
         </section>

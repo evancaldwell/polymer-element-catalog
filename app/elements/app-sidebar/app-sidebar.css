@@ -1,6 +1,8 @@
 :host {
   height: 100%;
   box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
   z-index: 2;
   background: white;
   border-right: 1px solid #e5e5e5;
@@ -52,4 +54,32 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 40px;
+}
+
+::content #package-heading {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+::content #package-heading iron-icon {
+  margin-right: 15px;
+}
+
+::content #package-heading package-symbol {
+  margin-right: 10px;
+}
+
+::content #element-header {
+  margin-bottom: 20px;
+}
+
+::content #element-title {
+  margin-top: -10px;
+}
+
+::content #nav {
+  display: flex;
+  flex-direction: column;
 }
